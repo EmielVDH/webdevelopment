@@ -1,0 +1,78 @@
+/* Algemene instellingen */
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    color: #444444;
+    background-color: #a7cece;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 95%;
+    margin: 0 auto; /* centreren */
+    background-color: #ffffff;
+    border: 2px dotted white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Titels */
+h1, h2 {
+    color: #007e7e;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+/* Weekly specials extra kleuren voor h2 en h3 */
+#weekly h2 {
+    color: #005555; /* andere tint zoals gevraagd */
+    margin-bottom: 10px;
+}
+
+#weekly h3 {
+    color: #008898; /* vrije keuze extra kleur */
+    margin-top: 20px;
+}
+
+/* Tekst in weekly specials niet tegen randen */
+#weekly {
+    padding: 20px; /* vrij te bepalen volgens opdracht */
+    background-color: #eefafa;
+    border-radius: 6px;
+}
+
+/* Links + hover */
+#weekly a {
+    font-weight: bold;
+    color: #004040;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+#weekly a:hover {
+    background-color: brown;
+    color: white;
+}
+
+/* Paragrafen */
+p {
+    margin-bottom: 10px;
+    font-style: italic; /* cursief zoals opdracht */
+}
+
+/* Footer: de helft van algemene grootte */
+footer {
+    font-size: 0.6em; /* 0.5 × 1.2em afgerond om mooier te ogen */
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+}

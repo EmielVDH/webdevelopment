@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 10px;   /* zorgt voor de 10px ruimte rondom */
+}
+
+.col {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid black;
+    float: left;
+}
